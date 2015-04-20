@@ -1,0 +1,22 @@
+{
+  "name": "carica/chip-examples-firmata",
+  "type": "library",
+  "description": "Physical computing for PHP",
+  "keywords": ["non-blocking-io", "asynchronous-io", "arduino", "firmata"],
+  "homepage": "https://github.com/ThomasWeinert/carica-chip",
+  "license": "MIT",
+  "authors": [
+    {"name": "Thomas Weinert", "email": "thomas@weinert.info"}
+  ],
+  "require": {
+    "php": ">=5.4",
+    "carica/chip": "dev-master",
+    "carica/io": "dev-master",
+    "carica/firmata": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carica\\Chip\\": "src/"
+    }
+  }
+}
